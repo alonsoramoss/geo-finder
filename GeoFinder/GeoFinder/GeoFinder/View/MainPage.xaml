@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GeoFinder.View.MainPage">
+  <ContentPage.Content>
+      <StackLayout Padding="30" Spacing="23">
+            <Label Text="GeoFinder"
+                    FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black"/>
+            <Label Text="Introduce las coordenadas para obtener la información meteorológica:"
+                   FontSize="15" TextColor="Black"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Latitud" WidthRequest="130" VerticalTextAlignment="Center" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+                <Entry x:Name="txtLatitude" Placeholder="Ingrese latitud" Keyboard="Numeric" WidthRequest="150"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Longitud" WidthRequest="130" VerticalTextAlignment="Center" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+                <Entry x:Name="txtLongitude" Placeholder="Ingrese longitud" Keyboard="Numeric" WidthRequest="150"/>
+            </StackLayout>
+          
+            <Button x:Name="btnSearch" Clicked="OnClicked" WidthRequest="150" Text="Buscar" TextColor="White" FontSize="17" FontAttributes="Bold"
+                BackgroundColor="Blue"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Locación: " TextColor="Green" FontSize="15" FontAttributes="Bold"
+               WidthRequest="130"/>
+                <Label Text="{Binding StationName}" TextColor="Black" FontSize="15"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Elevación: " TextColor="Green" FontSize="15" FontAttributes="Bold"
+               WidthRequest="130"/>
+                <Label Text="{Binding Elevation}" TextColor="Black" FontSize="15"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Temperatura: " TextColor="Green" FontSize="15" FontAttributes="Bold"
+               WidthRequest="130"/>
+                <Label Text="{Binding Temperature}" TextColor="Black" FontSize="15"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Humedad: " TextColor="Green" FontSize="15" FontAttributes="Bold"
+               WidthRequest="130"/>
+                <Label Text="{Binding Humidity}" TextColor="Black" FontSize="15"/>
+            </StackLayout>
+      </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\bin\Debug\netstandard2.0\GeoFinder.deps.json
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\bin\Debug\netstandard2.0\GeoFinder.dll
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\bin\Debug\netstandard2.0\ref\GeoFinder.dll
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\bin\Debug\netstandard2.0\GeoFinder.pdb
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\GeoFinder.csproj.AssemblyReference.cache
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\GeoFinder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\GeoFinder.AssemblyInfoInputs.cache
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\GeoFinder.AssemblyInfo.cs
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\GeoFinder.csproj.CoreCompileInputs.cache
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\GeoFinder.dll
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\refint\GeoFinder.dll
+C:\Users\alonso\source\repos\GeoFinder\GeoFinder\GeoFinder\obj\Debug\netstandard2.0\GeoFinder.pdb
